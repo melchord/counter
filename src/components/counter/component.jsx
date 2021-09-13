@@ -3,9 +3,6 @@ import PropTypes from 'prop-types';
 
 const Component = ({ currentCount, onIncrease, onDecrease }) => {
   const count = currentCount;
-  console.log(typeof currentCount);
-  console.log(typeof onIncrease);
-  console.log(typeof onDecrease);
 
   return (
     <div>
